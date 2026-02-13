@@ -13,7 +13,7 @@ document.getElementById("yes").onclick = function() {
 };
 
 const images = [
-  {src:"IMG-20260210-WA0004.jpg",text:"The day you came into my life ❤️"},
+  {src:"IMG-20260210-WA0008.jpg",text:"The day you came into my life ❤️"},
   {src:"IMG-20260210-WA0005.jpg",text:"Your smile is my happiness 😊"},
   {src:"IMG-20260210-WA0006.jpg",text:"Every moment with you is magical ✨"},
   {src:"IMG-20260210-WA0007.jpg",text:"You are my safe place 💕"},
