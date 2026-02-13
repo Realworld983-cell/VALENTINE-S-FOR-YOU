@@ -1,1 +1,83 @@
+body{
+  margin:0;
+  background:black;
+  font-family:Arial, sans-serif;
+  overflow:hidden;
+  color:white;
+}
 
+/* PRANK PAGE */
+.prank{
+  position:absolute;
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+button{
+  padding:12px 25px;
+  font-size:18px;
+  margin:10px;
+  border:none;
+  border-radius:25px;
+  cursor:pointer;
+}
+
+#yes{
+  background:#ff4d88;
+  color:white;
+}
+
+#no{
+  background:white;
+  color:black;
+  position:absolute;
+}
+
+/* SLIDESHOW */
+.slideshow{
+  display:none;
+  position:absolute;
+  width:100%;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+
+.background{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-position:center;
+  filter:blur(20px) brightness(40%);
+  transition:background-image 2s ease;
+}
+
+#slide{
+  position:relative;
+  max-width:85%;
+  max-height:75%;
+  border-radius:20px;
+  box-shadow:0 0 40px rgba(255,0,120,0.7);
+  animation:zoom 6s ease-in-out infinite alternate;
+  transition:opacity 1.5s ease;
+}
+
+@keyframes zoom{
+  from{transform:scale(1);}
+  to{transform:scale(1.08);}
+}
+
+.caption{
+  position:absolute;
+  bottom:40px;
+  font-size:22px;
+  color:#ff99cc;
+  opacity:0;
+  transition:opacity 2s;
+}
