@@ -13,13 +13,13 @@ document.getElementById("yes").onclick = function() {
 };
 
 const images = [
-  {src:"img1.jpg",text:"The day you came into my life ❤️"},
-  {src:"img2.jpg",text:"Your smile is my happiness 😊"},
-  {src:"img3.jpg",text:"Every moment with you is magical ✨"},
-  {src:"img4.jpg",text:"You are my safe place 💕"},
-  {src:"img5.jpg",text:"Forever starts with you 💖"},
+  {src:"IMG-20260210-WA0004.jpg",text:"The day you came into my life ❤️"},
+  {src:"IMG-20260210-WA0005.jpg",text:"Your smile is my happiness 😊"},
+  {src:"IMG-20260210-WA0006.jpg",text:"Every moment with you is magical ✨"},
+  {src:"IMG-20260210-WA0007.jpg",text:"You are my safe place 💕"},
+  {src:"IMG-20260210-WA0008.jpg",text:"Forever starts with you 💖"},
   {src:"img6.jpg",text:"My heart beats for you 💓"},
-  {src:"img7.jpg",text:"I Love You Forever ❤️"}
+  {src:"img7.jpg",text:"Will You My Velentine❤️"}
 ];
 
 let index = 0;
