@@ -18,8 +18,8 @@ const images = [
   {src:"IMG-20260210-WA0006.jpg",text:"Every moment with you is magical ✨"},
   {src:"IMG-20260210-WA0007.jpg",text:"You are my safe place 💕"},
   {src:"IMG-20260210-WA0008.jpg",text:"Forever starts with you 💖"},
-  {src:"img6.jpg",text:"My heart beats for you 💓"},
-  {src:"img7.jpg",text:"Will You My Velentine❤️"}
+  {src:"IMG-20260210-WA0004.jpg",text:"My heart beats for you 💓"},
+  {src:"IMG-20260210-WA0006.jpg",text:"Will You My Velentine❤️"}
 ];
 
 let index = 0;
